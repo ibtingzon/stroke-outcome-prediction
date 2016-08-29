@@ -73,7 +73,7 @@ sink(file = "ISDB")
 summary(rules)
 sink(NULL)
 
-#CART Model <-- is really mess so just ignore it. :P
+#CART Model <-- is really messy so just ignore it
 form <- as.formula(PROG ~ .)
 fit <- rpart(form,data=istdata,control=rpart.control(minsplit=20,cp=0))
 pfit<- prune(fit, cp=   fit$cptable[which.min(fit$cptable[,"xerror"]),"CP"])
