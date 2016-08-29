@@ -1,4 +1,5 @@
 # Data Mining in Medicine: Predicting Outcomes after the Onset of Stroke
+- Programming Project for Elective Course CS 176 (Data Mining)
 - Data mining techniques to build models to predict  the status of the patient 6 months after the onset of stroke. 
 - We built decision tree models, generated association rules, and analyzed the accuracy of the models produced by the C5.0 algorithm and the CART model
 
